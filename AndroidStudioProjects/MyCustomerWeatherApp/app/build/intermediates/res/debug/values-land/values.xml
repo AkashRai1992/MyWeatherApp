@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/akki/AndroidStudioProjects/MyCustomerWeatherApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-land/values.xml -->
+    <eat-comment/>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_action_bar_default_padding_material">0dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <!-- From: file:/home/akki/AndroidStudioProjects/MyCustomerWeatherApp/app/src/main/res/values-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="textview_avg_temp_height">60dp</dimen>
+    <dimen name="textview_max_temp_height">20dp</dimen>
+    <dimen name="textview_min_temp_height">20dp</dimen>
+    <dimen name="weather_icon_height">100dp</dimen>
+    <dimen name="weather_icon_width">100dp</dimen>
+</resources>

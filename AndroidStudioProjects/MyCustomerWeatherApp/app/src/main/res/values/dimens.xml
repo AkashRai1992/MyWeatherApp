@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textview_avg_temp_height">120dp</dimen>
+    <dimen name="textview_min_temp_height">40dp</dimen>
+    <dimen name="textview_max_temp_height">40dp</dimen>
+    <dimen name="textview_country_name_height">20dp</dimen>
+    <dimen name="textview_city_name_height">40dp</dimen>
+    <dimen name="weather_icon_height">150dp</dimen>
+    <dimen name="weather_icon_width">150dp</dimen>
+    <dimen name="text_view_three_hour_format">20dp</dimen>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="Bg_color">#229cdc</color>
+    <color name="Bg_color_weather_icon">#808080</color>
+    <color name="text_color_detail_activity">#000000</color>
+    <color name="bg_color_detail_activity">#4797d6</color>
+    <color name="bg_color_three_format_activity">#c4bff6</color>
+
+</resources>

@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_view_icon"
+            android:layout_width="@dimen/weather_icon_width"
+            android:layout_height="@dimen/weather_icon_height"
+            android:visibility="gone"
+
+            />
+
+        <TextView
+            android:id="@+id/text_view_current_weather_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/textview_country_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textview_country_name_height"
+
+
+            />
+
+        <TextView
+            android:id="@+id/textview_average_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textview_avg_temp_height"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_min_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textview_min_temp_height"
+                android:textStyle="bold"
+
+
+                />
+
+            <View
+                android:layout_marginLeft="10dp"
+                android:id="@+id/view_divider"
+                android:layout_width="4dp"
+                android:layout_height="40dp"
+                android:background="@color/text_color_detail_activity"
+
+
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textview_max_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textview_max_temp_height"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            />
+
+        <TextView
+            android:id="@+id/textview_Loding_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_day_of_the_week"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+</LinearLayout>

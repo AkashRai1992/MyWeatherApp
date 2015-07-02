@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:orientation="horizontal">
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:id="@+id/textview_time_stamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_view_three_hour_format"
+        android:textStyle="bold" />
+
+    />
+
+    <TextView
+        android:id="@+id/textview_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_view_three_hour_format"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_view_weather_icon_three_hour_format"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

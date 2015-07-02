@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyCustomerWeatherApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_future_for_cast">FutureForCastActivity</string>
+    <string name="title_activity_detailed__view__current__weather">DetailedViewCurrentWeather
+    </string>
+    <string name="title_activity_three_hour_format">ThreeHourFormatActivity</string>
+</resources>
